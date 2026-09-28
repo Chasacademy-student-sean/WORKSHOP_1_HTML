@@ -1,3 +1,51 @@
 * {
-  background-color: blue;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #172033;
+  background-color: #f3f5f9;
+}
+
+main {
+  width: min(100% - 2rem, 64rem);
+  margin-inline: auto;
+  padding-block: 3rem;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+.introduction {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 16px;
+}
+
+@media screen and (min-width: 600px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
 }
