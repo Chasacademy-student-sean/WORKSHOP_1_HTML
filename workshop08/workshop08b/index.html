@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="sv" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kvarterets Kopp serverar kaffe och nybakade godsaker."
+    />
+    <title>Kvarterets Kopp</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="bg-amber-50 text-stone-800 antialiased">
+    <header class="border-b border-amber-900/20 bg-amber-50">
+      <nav
+        class="mx-auto flex max-w-6xl items-center justify-between px-6 py-5"
+        aria-label="Huvudmeny"
+      >
+        <a class="text-xl font-bold tracking-tight text-amber-950" href="#top">
+          ☕ Kvarterets Kopp
+        </a>
+
+        <ul class="flex items-center gap-5 text-sm font-semibold sm:gap-8">
+          <li>
+            <a class="transition hover:text-amber-700" href="#om-oss">Om oss</a>
+          </li>
+          <li>
+            <a class="transition hover:text-amber-700" href="#kaffemeny"
+              >Meny</a
+            >
+          </li>
+          <li>
+            <a class="transition hover:text-amber-700" href="#kontakt"
+              >Kontakt</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section
+        id="om-oss"
+        class="mx-auto max-w-6xl px-6 py-20 text-center sm:py-28"
+      >
+        <p
+          class="mb-3 text-sm font-bold uppercase tracking-widest text-amber-700"
+        >
+          Kaffe med omtanke
+        </p>
+        <h1
+          class="text-4xl font-bold tracking-tight text-amber-950 sm:text-6xl"
+        >
+          En varm paus mitt i kvarteret
+        </h1>
+        <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-stone-600">
+          På Kvarterets Kopp serverar vi noggrant bryggt kaffe och nybakade
+          godsaker. Här finns plats för både en lugn stund och ett trevligt
+          samtal.
+        </p>
+      </section>
+
+      <section id="kaffemeny" class="bg-white px-6 py-16 sm:py-20">
+        <div class="mx-auto max-w-6xl">
+          <div class="mb-10">
+            <p
+              class="text-sm font-bold uppercase tracking-widest text-amber-700"
+            >
+              Något för varje kaffestund
+            </p>
+            <h2 class="mt-2 text-3xl font-bold text-amber-950 sm:text-4xl">
+              Kaffemeny
+            </h2>
+          </div>
+
+          <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <article
+              class="rounded-2xl border border-amber-900/10 bg-amber-50 p-6"
+            >
+              <div class="flex items-start justify-between gap-4">
+                <h3 class="text-xl font-bold text-amber-950">Espresso</h3>
+                <p class="font-bold text-amber-700">35 kr</p>
+              </div>
+              <p class="mt-3 leading-7 text-stone-600">
+                En liten och intensiv kaffeupplevelse med fyllig smak.
+              </p>
+            </article>
+
+            <article
+              class="rounded-2xl border border-amber-900/10 bg-amber-50 p-6"
+            >
+              <div class="flex items-start justify-between gap-4">
+                <h3 class="text-xl font-bold text-amber-950">Americano</h3>
+                <p class="font-bold text-amber-700">39 kr</p>
+              </div>
+              <p class="mt-3 leading-7 text-stone-600">
+                Espresso och varmt vatten ger en mjuk men tydlig kaffesmak.
+              </p>
+            </article>
+
+            <article
+              class="rounded-2xl border border-amber-900/10 bg-amber-50 p-6"
+            >
+              <div class="flex items-start justify-between gap-4">
+                <h3 class="text-xl font-bold text-amber-950">Cappuccino</h3>
+                <p class="font-bold text-amber-700">49 kr</p>
+              </div>
+              <p class="mt-3 leading-7 text-stone-600">
+                Espresso med varm mjölk och ett luftigt lager mjölkskum.
+              </p>
+            </article>
+
+            <article
+              class="rounded-2xl border border-amber-900/10 bg-amber-50 p-6"
+            >
+              <div class="flex items-start justify-between gap-4">
+                <h3 class="text-xl font-bold text-amber-950">Caffè latte</h3>
+                <p class="font-bold text-amber-700">52 kr</p>
+              </div>
+              <p class="mt-3 leading-7 text-stone-600">
+                En len blandning av espresso och rikligt med varm mjölk.
+              </p>
+            </article>
+
+            <article
+              class="rounded-2xl border border-amber-900/10 bg-amber-50 p-6"
+            >
+              <div class="flex items-start justify-between gap-4">
+                <h3 class="text-xl font-bold text-amber-950">Flat white</h3>
+                <p class="font-bold text-amber-700">49 kr</p>
+              </div>
+              <p class="mt-3 leading-7 text-stone-600">
+                Dubbel espresso med ett tunt lager sammetslen mjölk.
+              </p>
+            </article>
+
+            <article
+              class="rounded-2xl border border-amber-900/10 bg-amber-50 p-6"
+            >
+              <div class="flex items-start justify-between gap-4">
+                <h3 class="text-xl font-bold text-amber-950">Islatte</h3>
+                <p class="font-bold text-amber-700">55 kr</p>
+              </div>
+              <p class="mt-3 leading-7 text-stone-600">
+                Espresso, kall mjölk och is för en sval kaffepaus.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="kontakt" class="bg-amber-950 text-amber-50">
+      <div
+        class="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-8 sm:flex-row sm:items-center sm:justify-between"
+      >
+        <p class="text-lg font-bold">☕ Kvarterets Kopp</p>
+        <p class="text-sm text-amber-100">© 2026 Kvarterets Kopp</p>
+      </div>
+    </footer>
+  </body>
+</html>
